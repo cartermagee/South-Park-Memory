@@ -1,0 +1,43 @@
+body {
+  background: url('http://i.imgur.com/qqHfLDA.jpg') no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "southpark";
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+.top-menu {
+  justify-content: space-around;
+}
+.start {
+  width: 16rem;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.timer-container {
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 16rem;
+  p {
+      margin: 0;
+  }
+}
+
+.main-wrapper {
+  background-size: cover;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'south park 2';
+  src: URL('south park 2.ttf') format ('ttf');
+}

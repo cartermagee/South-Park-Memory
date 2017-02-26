@@ -1,0 +1,80 @@
+ [{
+    "id": 1,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/kids/stan-marsh.png?height=165",
+    "name": "stan"
+  },
+  {
+    "id": 2,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/kids/kyle-broflovski.png?height=165",
+    "name": "kyle"
+  },
+  {
+    "id": 3,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/kids/butters-stotch.png?height=165",
+    "name": "butters"
+  },
+  {
+    "id": 4,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/kids/token-black.png?height=165",
+    "name": "token"
+  },
+  {
+    "id": 5,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/kids/eric-cartman.png?height=165",
+    "name": "cartman"
+  },
+  {
+    "id": 6,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/adults/randy-marsh.png?height=165",
+    "name": "randy"
+  },
+  {
+    "id": 7,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/celebrities/pillip.png?height=165",
+    "name": "phillip"
+  },
+  {
+    "id": 8,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/adults/biggayal.png?height=165",
+    "name": "big gay al"
+  },
+  {
+    "id": 9,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/kids/timmy-burch.png?height=165",
+    "name": "timmy"
+  },
+  {
+    "id": 10,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/celebrities/terrance.png?height=165",
+    "name": "terrence"
+  },
+  {
+    "id": 11,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/adults/mrgarrison.png",
+    "name": "garrison"
+  },
+  {
+    "id": 12,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/kids/ike-broflovski.png?height=165",
+    "name": "ike"
+  },
+  {
+    "id": 13,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/kids/kenny-mccormick.png?height=165",
+    "name": "kenny"
+  },
+  {
+    "id": 14,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/adults/chef.png?height=165",
+    "name": "chef"
+  },
+  {
+    "id": 15,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/non-human/god.png?height=165",
+    "name": "god"
+  },
+  {
+    "id": 16,
+    "img": "http://southparkstudios.mtvnimages.com/shared/characters/non-human/satan.png?height=165",
+    "name": "satan"
+  }]
