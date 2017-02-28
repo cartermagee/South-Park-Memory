@@ -26,6 +26,7 @@
     display: flex;
     align-items: center;
     @media screen and (max-width: 700px) {
+      border: 2px solid grey;
       height: 10.5%;
       width: 10.5%;
       margin: 0px;
@@ -51,7 +52,7 @@
   align-items: center;
   @media screen and (max-width: 700px) {
       border-radius: 5px;
-      border: 3px solid grey;
+      border: 2px solid grey;
       background: #F0FFFA;
       width: 10.5%;
       margin: 0px;
@@ -81,7 +82,7 @@
   align-items: center;
   @media screen and (max-width: 700px) {
       border-radius: 5px;
-      border: 3px solid grey;
+      border: 2px solid red;
       background: #F0FFFA;
       height: 10.5%;
       width: 10.5%;
