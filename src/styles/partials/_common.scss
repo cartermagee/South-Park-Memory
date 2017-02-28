@@ -24,16 +24,27 @@ h1 {
   &:hover{
     cursor: pointer;
   }
+  @media screen and (max-width: 700px) {
+    font-size: 3vw;
+  }
 }
 .timer-container {
   font-size: 1.14vw;
   position: relative;
   padding-right: 1vw;
   p {
-      margin: 0;
+    margin: 0;
+    @media screen and (max-width: 700px) {
+      font-size: 2.5vw;
+    }
   }
 }
+.time {
+  @media screen and (max-width: 700px) {
+    display: none
+  }
 
+}
 .main-wrapper {
   background-size: cover;
   height: 100%;

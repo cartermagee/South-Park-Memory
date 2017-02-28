@@ -22,6 +22,9 @@ h1 {
   font-size: 1.14vw; }
   .start:hover {
     cursor: pointer; }
+  @media screen and (max-width: 700px) {
+    .start {
+      font-size: 3vw; } }
 
 .timer-container {
   font-size: 1.14vw;
@@ -29,6 +32,13 @@ h1 {
   padding-right: 1vw; }
   .timer-container p {
     margin: 0; }
+    @media screen and (max-width: 700px) {
+      .timer-container p {
+        font-size: 2.5vw; } }
+
+@media screen and (max-width: 700px) {
+  .time {
+    display: none; } }
 
 .main-wrapper {
   background-size: cover;
@@ -97,8 +107,7 @@ h1 {
       border-radius: 5px;
       border: 3px solid grey;
       background: #F0FFFA;
-      height: 11.5%;
-      width: 11.5%;
+      width: 10.5%;
       margin: 0px;
       display: flex;
       align-items: center; } }
@@ -123,7 +132,7 @@ h1 {
       border: 3px solid grey;
       background: #F0FFFA;
       height: 10.5%;
-      width: 11.5%;
+      width: 10.5%;
       margin: 0px;
       display: flex;
       align-items: center; } }
