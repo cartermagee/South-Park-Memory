@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Memory</title>
+        <link href="https://fonts.googleapis.com/css?family=Arsenal|Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="lib/styles/main.css">
+    </head>
+
+    <body>
+        <div class="win-screen is-hidden">
+            <div class="re-start">
+                again?
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <h1>Memory</h1>
+            <section class="top-menu is-flex">
+                <div class="start">
+                    click to start a new game
+                </div>
+                <div class="timer-container is-flex">
+                    elapsed time:
+                    <p id="timer"></p>
+                </div>
+            </section>
+            <section class="game-container">
+                <ul class="grid is-flex">
+                    <!-- handlebars templates go here -->
+                </ul>
+            </section>
+        </div>
+
+        <script id="tiles" type="text/x-handlebars-template">
+            {{#each southPark}}
+            <li class="tile" data-name="{{this.id}}">
+                <img class="card" src="{{this.img}}">
+                <img class="card is-hidden" src="http://bit.ly/2l91OJT">
+            </li>
+            {{/each}}
+        </script>
+        <script type="text/javascript" src="http://momentjs.com/downloads/moment.min.js"></script>
+        <script src="lib/js/vendor/vendor.min.js"></script>
+        <script src="src/js/app.js"></script>
+    </body>
+
+</html>

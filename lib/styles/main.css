@@ -5,31 +5,35 @@ body {
   font-family: "southpark"; }
 
 h1 {
-  font-size: 6rem;
-  margin: 0;
-  padding-top: 20px;
+  font-size: 6vw;
+  padding-top: 0px;
+  margin: 0px;
   text-align: center; }
+  @media screen and (max-width: 700px) {
+    h1 {
+      display: none; } }
 
 .top-menu {
-  justify-content: space-around; }
+  width: 70vw;
+  margin: 0 auto;
+  justify-content: space-between; }
 
 .start {
-  width: 16rem; }
+  font-size: 1.14vw; }
   .start:hover {
     cursor: pointer; }
 
 .timer-container {
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 16rem; }
+  font-size: 1.14vw;
+  position: relative;
+  padding-right: 1vw; }
   .timer-container p {
     margin: 0; }
 
 .main-wrapper {
   background-size: cover;
   height: 100%;
-  margin: 0 auto;
+  margin: 0px;
   width: 100%; }
 
 @font-face {
@@ -44,58 +48,89 @@ h1 {
 
 .game-container {
   margin: 0 auto;
-  width: 78vw;
-  z-index: 2; }
-  .game-container .grid {
-    flex-wrap: wrap;
-    list-style-type: none; }
-    .game-container .grid .tile {
+  width: 78vw; }
+  @media screen and (max-width: 700px) {
+    .game-container {
+      width: 100%; } }
+
+.grid {
+  flex-wrap: wrap;
+  list-style-type: none; }
+  @media screen and (max-width: 700px) {
+    .grid {
+      width: 100%;
+      padding: 0px;
+      justify-content: center; } }
+
+.tile {
+  border-radius: 5px;
+  border: 3px solid grey;
+  background: #F0FFFA;
+  height: 10.5%;
+  width: 10.5%;
+  margin: .3%;
+  display: flex;
+  align-items: center; }
+  @media screen and (max-width: 700px) {
+    .tile {
+      height: 10.5%;
+      width: 10.5%;
+      margin: 0px; } }
+  .tile img {
+    position: relative;
+    overflow: hidden;
+    width: 100%; }
+  .tile:hover {
+    cursor: pointer;
+    transform: scale(1.05); }
+
+.selected {
+  background: #F0FFFA;
+  border-radius: 5px;
+  height: 10.5%;
+  width: 11.1%;
+  margin: .3%;
+  display: flex;
+  align-items: center; }
+  @media screen and (max-width: 700px) {
+    .selected {
       border-radius: 5px;
       border: 3px solid grey;
       background: #F0FFFA;
-      width: 7rem;
-      height: 7rem;
-      margin: 5px;
+      height: 11.5%;
+      width: 11.5%;
+      margin: 0px;
       display: flex;
-      align-items: center; }
-      .game-container .grid .tile img {
-        position: relative;
-        overflow: hidden;
-        width: 100%; }
-      .game-container .grid .tile:hover {
-        cursor: pointer;
-        transform: scale(1.05); }
-    .game-container .grid .paired {
-      background: #F0FFFA;
-      border-radius: 5px;
-      border: 3px solid red;
-      width: 7rem;
-      height: 7rem;
-      margin: 5px;
-      display: flex;
-      align-items: center; }
-      .game-container .grid .paired img {
-        position: relative;
-        width: 12rem;
-        right: 41px; }
-    .game-container .grid .selected {
-      background: #F0FFFA;
-      border-radius: 5px;
-      width: 7rem;
-      height: 7rem;
-      margin: 5px;
-      display: flex;
-      align-items: center; }
-      .game-container .grid .selected img {
-        position: relative;
-        width: 12rem;
-        right: 41px;
-        z-index: 2; }
+      align-items: center; } }
+  .selected img {
+    position: relative;
+    width: 175%;
+    right: 39%;
+    z-index: 2; }
 
-.music {
-  position: absolute;
-  bottom: 10px;
-  left: 10px; }
+.paired {
+  background: #F0FFFA;
+  border-radius: 5px;
+  border: 3px solid red;
+  height: 10.5%;
+  width: 10.5%;
+  margin: .3%;
+  display: flex;
+  align-items: center; }
+  @media screen and (max-width: 700px) {
+    .paired {
+      border-radius: 5px;
+      border: 3px solid grey;
+      background: #F0FFFA;
+      height: 10.5%;
+      width: 11.5%;
+      margin: 0px;
+      display: flex;
+      align-items: center; } }
+  .paired img {
+    position: relative;
+    width: 175%;
+    right: 39%; }
 
 .win-screen {
   position: absolute;

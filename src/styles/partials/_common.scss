@@ -6,25 +6,29 @@ body {
 }
 
 h1 {
-  font-size: 6rem;
-  margin: 0;
-  padding-top: 20px;
+  font-size: 6vw;
+  padding-top: 0px;
+  margin: 0px;
   text-align: center;
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
 }
 .top-menu {
-  justify-content: space-around;
+  width: 70vw;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 .start {
-  width: 16rem;
+  font-size: 1.14vw;
   &:hover{
     cursor: pointer;
   }
 }
 .timer-container {
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 16rem;
+  font-size: 1.14vw;
+  position: relative;
+  padding-right: 1vw;
   p {
       margin: 0;
   }
@@ -33,7 +37,7 @@ h1 {
 .main-wrapper {
   background-size: cover;
   height: 100%;
-  margin: 0 auto;
+  margin: 0px;
   width: 100%;
 }
 

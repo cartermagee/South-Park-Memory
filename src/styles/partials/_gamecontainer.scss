@@ -1,66 +1,98 @@
+
 .game-container {
   margin: 0 auto;
   width: 78vw;
-  z-index: 2;
-  .grid {
-    flex-wrap: wrap;
-    list-style-type: none;
-    .tile {
-      border-radius: 5px;
-      border: 3px solid grey;
-      background: #F0FFFA;
-      width: 7rem;
-      height: 7rem;
-      margin: 5px;
-      display: flex;
-      align-items: center;
-      img {
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-      }
-      &:hover{
-        cursor: pointer;
-        transform: scale(1.05);
-      }
-    }
-    .paired {
-      background: #F0FFFA;
-      border-radius: 5px;
-      border: 3px solid red;
-      width: 7rem;
-      height: 7rem;
-      margin: 5px;
-      display: flex;
-      align-items: center;
-      img {
-        position: relative;
-        width: 12rem;
-        right: 41px;
-      }
-    }
-    .selected {
-      background: #F0FFFA;
-      border-radius: 5px;
-      width: 7rem;
-      height: 7rem;
-      margin: 5px;
-      display: flex;
-      align-items: center;
-      img {
-        position: relative;
-        width: 12rem;
-        right: 41px;
-        z-index: 2;
-      }
-    }
+  @media screen and (max-width: 700px) {
+    width: 100%;
   }
 }
 
-.music {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-
-
+  .grid {
+    flex-wrap: wrap;
+    list-style-type: none;
+    @media screen and (max-width: 700px) {
+      width: 100%;
+      padding: 0px;
+      justify-content: center;
+    }
   }
+  .tile {
+    border-radius: 5px;
+    border: 3px solid grey;
+    background: #F0FFFA;
+    height: 10.5%;
+    width: 10.5%;
+    margin: .3%;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 700px) {
+      height: 10.5%;
+      width: 10.5%;
+      margin: 0px;
+    }
+    img {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+    }
+    &:hover{
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
+
+.selected {
+  background: #F0FFFA;
+  border-radius: 5px;
+  height: 10.5%;
+  width: 11.1%;
+  margin: .3%;
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 700px) {
+      border-radius: 5px;
+      border: 3px solid grey;
+      background: #F0FFFA;
+      height: 11.5%;
+      width: 11.5%;
+      margin: 0px;
+      display: flex;
+      align-items: center;
+    }
+
+  img {
+    position: relative;
+    width: 175%;
+    right: 39%;
+    z-index: 2;
+    // @media screen and (max-width: 700px) {
+    //
+    // }
+  }
+}
+
+.paired {
+  background: #F0FFFA;
+  border-radius: 5px;
+  border: 3px solid red;
+  height: 10.5%;
+  width: 10.5%;
+  margin: .3%;
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 700px) {
+      border-radius: 5px;
+      border: 3px solid grey;
+      background: #F0FFFA;
+      height: 10.5%;
+      width: 11.5%;
+      margin: 0px;
+      display: flex;
+      align-items: center;
+    }
+  img {
+    position: relative;
+    width: 175%;
+    right: 39%;
+  }
+}
