@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'south park 2';
+  src: url('south park 2.ttf') format ('ttf');
+}
+
 body {
   background: url('http://i.imgur.com/qqHfLDA.jpg') no-repeat;
   background-size: cover;
@@ -50,9 +55,4 @@ h1 {
   height: 100%;
   margin: 0px;
   width: 100%;
-}
-
-@font-face {
-  font-family: 'south park 2';
-  src: URL('south park 2.ttf') format ('ttf');
 }
