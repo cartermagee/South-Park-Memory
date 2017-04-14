@@ -1,6 +1,15 @@
+// @font-face {
+//   font-family: 'southpark';
+//   src: url('southpark.ttf') format ('ttf');
+// }
 @font-face {
   font-family: 'southpark';
-  src: url('southpark.ttf') format ('ttf');
+  src: url('southpark.eot'); /* IE9 Compat Modes */
+  src: url('southpark.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('southpark.woff2') format('woff2'), /* Super Modern Browsers */
+       url('southpark.woff') format('woff'), /* Pretty Modern Browsers */
+       url('southpark.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('southpark.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 body {
