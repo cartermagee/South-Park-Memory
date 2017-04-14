@@ -1,20 +1,22 @@
-// @font-face {
-//     font-family: 'South-Park-Smilie-version';
-//     src:url('South-Park-Smilie-version.ttf.woff') format('woff'),
-//         url('South-Park-Smilie-version.ttf.svg#South-Park-Smilie-version') format('svg'),
-//         url('South-Park-Smilie-version.ttf.eot'),
-//         url('South-Park-Smilie-version.ttf.eot?#iefix') format('embedded-opentype');
-//     font-weight: normal;
-//     font-style: normal;
-// }
-@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@font-face {
+    font-family: 'South-Park-Smilie-version';
+    src:url('South-Park-Smilie-version.ttf.woff') format('woff'),
+        url('South-Park-Smilie-version.ttf.svg#South-Park-Smilie-version') format('svg'),
+        url('South-Park-Smilie-version.ttf.eot'),
+        url('South-Park-Smilie-version.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+// @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url(../southpark.ttf);
 
 body {
   background: url('http://i.imgur.com/qqHfLDA.jpg') no-repeat;
   background-size: cover;
   color: white;
-  // font-family: "South-Park-Smilie-version";
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "South-Park-Smilie-version";
+  font-family: "southpark";
+  // font-family: 'Luckiest Guy', cursive;
   letter-spacing: 0.1em;
 }
 
